@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: linear-gradient(to right,#de6262  , #2c3e50);
+    background: #111 !important;
 }
 
 img {
@@ -27,8 +27,10 @@ img {
 }
 
 .card{
-    margin: 20px;
-    border: 1px solid white;
+    background: #222;
+    border: 1px solid #dd2476;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
     width: 18em;
     height: 35em;
 }
