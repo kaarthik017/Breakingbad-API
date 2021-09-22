@@ -55,6 +55,7 @@ function randomFacts(data){
     document.body.append(container);
 }
 
+// Fetch API call for Breaking Bad Characters
 fetch('https://breakingbadapi.com/api/characters')
 .then(res=>res.json())
 .then((data)=>{
